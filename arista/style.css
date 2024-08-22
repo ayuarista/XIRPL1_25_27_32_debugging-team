@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Koulen&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap');
+body{
+    height: 100vh;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+h1{
+    font-weight: 600;
+    font-size: 45px;
+}
+.container{
+    text-align: center;
+}
+.judul:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    letter-spacing: 10px;
+    transition: all ease 0.3s;
+}
+.img-wrapper img{
+    width: 210px;
+    border-radius: 10px;
+    margin: 30px;
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+.img-wrapper{
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.img-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.img-item img {
+  width: 210px;
+  border-radius: 10px;
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+
+.img-item img:hover {
+  transition: all ease 0.5s;
+  filter: grayscale(0%);
+  scale: 1.1;
+  transform: translateY(-25px);
+}
+
+.img-item a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+.img-item p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.img-item a ion-icon {
+  font-size: 25px;
+}
+.img-item a ion-icon:hover {
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+  } 
+.card-wrapper{
+    display: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.card{
+    width: 300px;
+    text-align: center;
+    height: 200px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    margin: 35px;
+    border-radius: 5px;
+}
+.card:hover{
+    scale: 1.1;
+    transition: all ease 0.3s;
+    cursor: pointer;
+    color: black;
+}
+.card p{
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.card a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: 500;
+
+}
+.text-p p{
+    max-width: 100px;
+    text-align: center;
+}
+.btn a{
+    padding: 10px;
+    font-size: 15px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+}
+.btn a:hover{
+    transition: all ease 0.2s;
+    letter-spacing: 2px;
+}
+.judul-table{
+    align-items: flex-start;
+    justify-content: start;
+    display: flex;
+}
+
+td, th{
+    border-bottom: 1px solid gray;
+    text-align: left;
+    padding: 15px;
+}
+table{
+    font-size: 15px;
+    width: 100%;
+    padding: 40px;
+}
+td{
+    color: gray;
+}

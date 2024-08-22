@@ -1,0 +1,128 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+}
+
+p{
+    text-align: center;  
+}
+
+
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+}
+
+img:border-shadow {
+    border: 2px solid #555;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    border-radius: 12px; 
+    
+  }
+
+  img.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Membuat gambar menjadi lingkaran */
+    object-fit: cover; /* Mengisi area lingkaran tanpa merusak rasio */
+  }
+  
+
+.foto-link {
+    text-align: center;
+    margin: 30px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 40px;
+    background-color: #601b6944;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+
+.foto-link img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.button {
+    background-color: #4380dbe7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+    display:grid;
+    justify-content: center;
+ 
+}
+
+.button:hover {
+    background-color: #1135d6;
+}
+
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.identity-table {
+    display: none;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 800px;
+}
+
+
+.identity-table.active {
+    display: block;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+
+h2 {
+    text-align: center;
+    margin:0;
+    background-color: #9a38b8;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+}
